@@ -8,3 +8,5 @@ main() {
 
 main
 
+# vim: set filetype=sh
+

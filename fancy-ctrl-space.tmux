@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 main() {
   tmux unbind C-b
@@ -10,5 +10,5 @@ main() {
 
 main
 
-# vim: set filetype=sh
+# vim: set filetype=bash
 

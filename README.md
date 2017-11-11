@@ -4,13 +4,16 @@ My favorite key-binding for prefix and copy-mode.
 
 ## Key-bindings
 
-|Key||
+|Key|Behavior|
 |:---|:---|
-|Ctrl+Space|Send prefix|
-|prefix + Space|Enter copy mode|
+|Control+Space|Send tmux prefix|
+|prefix -> Space|Enter copy mode|
+|prefix -> Control + Space|Enter copy mode|
 
-## Manual Installation
+## Installation
+
+Install using [tpm](https://github.com/tmux-plugins/tpm).
 
 ```tmux
-run-shell '. ~/dev/ws/tmux-fancy-ctrl-space/fancy-ctrl-space.tmux'
+set-option -g @plugin 'sei40kr/tmux-fancy-ctrl-space'
 ```

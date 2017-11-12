@@ -1,7 +1,5 @@
 # tmux-fancy-ctrl-space
 
-My favorite key-binding for prefix and copy-mode.
-
 ## Key-bindings
 
 |Key|Behavior|
